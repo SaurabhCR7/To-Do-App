@@ -1,0 +1,110 @@
+body{
+  background-color: #b392ac;
+}
+
+.heading{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+#input-todo{
+  width: 30%;
+  height: 30px;
+  border: 4px solid black;
+  border-radius: 0%;
+  padding: 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#input-todo:focus{
+  outline: none;
+}
+
+.addBtn{
+  margin-left: 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: crimson;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+
+.addBtn:hover{
+  color: black;
+  font-weight: bold;
+}
+
+.addBtn:focus{
+  outline: none;
+}
+
+.list-item{
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  height: 50px;
+  border: 4px solid black;
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.todo-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 90%;
+  cursor:default;
+  outline: none;
+  color: black;
+  border: none;
+  height: 42px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.delBtn{
+  border-radius: 50%;
+  background-color: crimson;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin-right: 10px;
+}
+
+.delBtn:focus{
+  outline: none;
+}
+
+.delBtn:hover{
+  color: black;
+  font-weight: bold;
+}
+
+#editBtn{
+  background-color: goldenrod;
+}
